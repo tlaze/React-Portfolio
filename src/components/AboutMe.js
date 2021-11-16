@@ -1,10 +1,10 @@
 import React from 'react';
 
-function aboutMe() {
+function AboutMe() {
 
     const styles = {
         bioStyle: {
-            marginTop: '10%',
+            marginTop:'7em',
         }
     }
     return(
@@ -12,7 +12,7 @@ function aboutMe() {
             <div class="row">
                 <div className="col-md-12">
                     <h1>About Me</h1>
-                    <img src="/assets/images/avatar.jpg" alt="Tom"></img>
+                    <img src="assets\images\avatar.jpg" alt="Tom"></img>
                 </div>
             </div>
             <div className="row">
@@ -30,4 +30,4 @@ function aboutMe() {
     )
 }
 
-export default aboutMe;
+export default AboutMe;

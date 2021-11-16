@@ -1,7 +1,11 @@
-// import React from 'react';
+import React from 'react';
 
-// function projects() {
-//     console.log("projects");
-// }
+function Projects() {
+    return(
+        <div>
+            <h1>projects</h1>
+        </div>
+    )   
+}
 
-// export default projects;
+export default Projects;

@@ -1,7 +1,11 @@
-// import React from 'react';
+import React from 'react';
 
-// function contactMe() {
-//     console.log("Contact Me");
-// }
+function ContactMe() {
+    return(
+        <div>
+            <h1>contact</h1>
+        </div>
+    )   
+}
 
-// export default contactMe;
+export default ContactMe;
