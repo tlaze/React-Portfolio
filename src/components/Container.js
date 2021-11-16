@@ -6,10 +6,10 @@ import NavBar from './Navbar';
 import Footer from './Footer';
 
 function Container() {
-    const [currentPage, setCurrentPage] = useState('home');
+    const [currentPage, setCurrentPage] = useState('about');
     
     const renderPage = () => {
-      if(currentPage === 'home'){
+      if(currentPage === 'about'){
         return <AboutMe />;
       }
       if(currentPage === 'projects'){
@@ -26,6 +26,9 @@ function Container() {
       mainStyle: {
         width: '100%',
         height: '100%',
+        minHeight: '100vh',
+        background: '#051f40',
+        color: '#d2dbde'
       }
     }
     

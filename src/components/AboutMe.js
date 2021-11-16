@@ -4,27 +4,21 @@ import profPic from '../assets/images/profilePic.jpg';
 
 function AboutMe() {
     const styles = {
-        bioStyle: {
-            marginTop:'7em',
-            height:'100%',
-        },
         picStyle: {
             height: '200x',
             width: '200px',
             borderRadius: '25%',
-            border: '5px solid #262626',
-            marginTop:'3em',
-            marginBottom:'1em',
-        }
+            border: '5px solid #d2dbde',
+        },
     }
     return(
-        <div className="container" style={styles.bioStyle}>
+        <div className="container-fluid my-5" style={styles.bioStyle}>
                 <h1>About Me</h1>
             <div className="row">
-                <div className="col-md-3 text-center">
+                <div className="col-md-3 text-center my-5">
                     <img src={profPic} alt="Me" style={styles.picStyle}></img>
                 </div>
-                <div className="col-md-9 text-center">
+                <div className="col-md-9 text-center my-5">
                     <h3>
                         I am a full stack software developer. Working with teams developed a mindset that supporting each member and putting in the effort to excel individualy leads to success.
                         During college I became an EMT and tested my skills in teamwork, multitasking, and staying calm under pressure in diverse and challenging environments.
@@ -34,9 +28,9 @@ function AboutMe() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-12 text-center my-5 fixed">
+                <div className="col-md-12 text-center my-5">
                     <h1>Skills</h1>
-                    <Marquee className="mb-5">
+                    <Marquee speed={50} gradient={false} pauseOnHover={true} className="my-5">
                         <h2>HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node  |  Express  |  MongoDB  |  React.js  |</h2>
                     </Marquee>
                 </div>

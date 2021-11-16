@@ -1,15 +1,18 @@
 .projectTitle{
-    color:white;
-    margin-top: 80%;
-    background-color: #262626;
+    color:#d2dbde;
+    margin-top: 75%;
+    background-color: #051f40;
     position:relative;
+}
+
+a{
+    text-decoration: none;
 }
 
 .project{
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 300px;
-    border: 10px solid #262626;
+    border: 10px solid #d2dbde;
 }
 
 #project1{

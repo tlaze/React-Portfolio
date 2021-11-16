@@ -3,7 +3,8 @@ import React from 'react';
 function ContactMe() {
     const styles = {
         contactStyle: {
-            marginTop:'7em',
+            marginTop:'25px',
+            height:'100%',
         }
     }
     return(
