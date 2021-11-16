@@ -4,8 +4,8 @@ function navBar() {
     return(
         <Navbar fixed="top" expand="sm" bg="dark" variant="dark">
             <Container className="ms-1 container-fluid">
-            <Navbar.Brand href="#home">Tom Lazore</Navbar.Brand>
-            <Navbar.Toggle />
+                <Navbar.Brand href="#home">Tom Lazore</Navbar.Brand>
+                <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav>
                         <Nav.Link className="mx-4" href="#projects">Projects</Nav.Link>
