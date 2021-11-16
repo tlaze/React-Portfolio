@@ -11,7 +11,7 @@ function NavBar({ currentPage, handlePageChange }) {
                     <Nav>
                         <Nav.Link className={currentPage === 'projects' ? 'nav=link active' : 'nav-link' } href="#projects" onClick={() => handlePageChange('projects')}>Projects</Nav.Link>
                         <Nav.Link className={currentPage === 'contact' ? 'nav=link active' : 'nav-link' } href="#contact" onClick={() => handlePageChange('contact')}>Contact Me</Nav.Link>
-                        <Nav.Link className="mx-4" href="#resume">Resume</Nav.Link>
+                        <Nav.Link href="#resume">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
