@@ -2,7 +2,8 @@ import Navbar from './components/Navbar';
 // import AboutMe from './components/AboutMe';
 // import Projects from './components/Projects';
 // import ContactMe from './components/ContactMe';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
+
 
 
 
@@ -13,7 +14,8 @@ function App() {
       {/* <AboutMe />
       <Projects />
       <ContactMe />
-      <Footer /> */}
+      */}
+      <Footer />
     </main>  
   );
 }
