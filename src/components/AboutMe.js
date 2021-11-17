@@ -12,7 +12,7 @@ function AboutMe() {
         },
     }
     return(
-        <div className="container-fluid my-5" style={styles.bioStyle}>
+        <div className="container-fluid my-5">
                 <h1>About Me</h1>
             <div className="row">
                 <div className="col-md-3 text-center my-5">

@@ -30,8 +30,12 @@ function ContactMe() {
 
     e.preventDefault();
 
-    if (!validateEmail(email) || !name || !message) {
-      setErrorMessage('Enter a Valid Email. Name and Message must be filled out.');
+    if (!validateEmail(email)) {
+      setErrorMessage('Enter a Valid Email.');
+      return;
+    }
+    if(!email || !name || !message){
+      setErrorMessage('Inputs must be filled out!');
       return;
     }
     setName('');
@@ -57,19 +61,42 @@ function ContactMe() {
           <Form>
             <Form.Group className="mb-3" >
               <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter Name" name={name} value={name} onChange={handleInputChange} />
+              <Form.Control
+               type="text" 
+               name="name" 
+               placeholder="Enter Name" 
+               value={name} 
+               onChange={handleInputChange} 
+               />
             </Form.Group>
             <Form.Group className="mb-3" >
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="name@example.com" name={email} value={email} onChange={handleInputChange} />
+              <Form.Control
+               type="email"
+               name="email" 
+               placeholder="name@example.com" 
+               value={email} 
+               onChange={handleInputChange}
+               />
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows={3} name={message} value={message} onChange={handleInputChange} />
+              <Form.Control
+               as="textarea"
+               name="message" 
+               rows={4} 
+               value={message} 
+               onChange={handleInputChange}
+                />
             </Form.Group>
-            <Button className="offset-5" variant="light" type="submit">Submit
+            <Button className="offset-5" variant="light" type="submit" onChange={handleFormSubmit}>Submit
             </Button>
           </Form>
+          {errorMessage && (
+            <div>
+              <p className="error-text text-center">{errorMessage}</p>
+            </div>
+          )}
         </div>
       </div>
     </div>
@@ -77,18 +104,3 @@ function ContactMe() {
 }
 
 export default ContactMe;
-
-
-
-{/* <form className="form my-5">
-<label for="email">Email</label>
-<input className="col-3 offset-2" value={email} name="email" onChange={handleInputChange} type="email" placeholder="Email" />
-<input className="col-3 offset-2" value={name} name="name" onChange={handleInputChange} type="text" placeholder="Full Name" />
-<input className="col-8 offset-2 my-4" value={message} name="message" onchange={handleInputChange} type="text" placeholder="Message" />
-<button className="offset-6" type="button" onClick={handleFormSubmit}>Submit</button>
-{errorMessage && (
-  <div>
-    <p className="error-text text-center">{errorMessage}</p>
-  </div>
-)}
-</form> */}
