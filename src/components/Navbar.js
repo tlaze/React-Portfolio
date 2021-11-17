@@ -24,9 +24,9 @@ function NavBar({ currentPage, handlePageChange }) {
             <Navbar.Toggle className="me-1" />
             <Navbar.Collapse className="justify-content-center">
                 <Nav>
-                    <Nav.Link style={styles.linkStyle}  className={ currentPage === 'about' ? 'nav-link active' : 'nav-link' } href="#about" onClick={() => handlePageChange('about')}>About Me</Nav.Link>
-                    <Nav.Link style={styles.linkStyle}  className={currentPage === 'projects' ? 'nav=link active' : 'nav-link' } href="#projects" onClick={() => handlePageChange('projects')}>Projects</Nav.Link>
-                    <Nav.Link style={styles.linkStyle}  className={currentPage === 'contact' ? 'nav=link active' : 'nav-link' } href="#contact" onClick={() => handlePageChange('contact')}>Contact Me</Nav.Link>
+                    <Nav.Link style={styles.linkStyle}  className={ currentPage === 'about' ? 'nav-link active' : 'nav-link' } onClick={() => handlePageChange('about')}>About Me</Nav.Link>
+                    <Nav.Link style={styles.linkStyle}  className={currentPage === 'projects' ? 'nav=link active' : 'nav-link' } onClick={() => handlePageChange('projects')}>Projects</Nav.Link>
+                    <Nav.Link style={styles.linkStyle}  className={currentPage === 'contact' ? 'nav=link active' : 'nav-link' } onClick={() => handlePageChange('contact')}>Contact Me</Nav.Link>
                     <Nav.Link style={styles.linkStyle}  href={myResume} download="Lazore_Thomas_Resume" rel="noreferrer">Resume</Nav.Link>            
                 </Nav>
             </Navbar.Collapse>

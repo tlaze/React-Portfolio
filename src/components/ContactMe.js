@@ -31,7 +31,7 @@ function ContactMe() {
     e.preventDefault();
 
     if (!validateEmail(email)) {
-      setErrorMessage('Enter a Valid Email.');
+      setErrorMessage('Enter a Valid Email. Name and Message must be filled out.');
       return;
     }
     if(!email || !name || !message){

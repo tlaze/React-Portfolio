@@ -29,9 +29,11 @@ function AboutMe() {
             </div>
             <div className="row">
                 <div className="col-md-12 text-center my-5">
-                    <h1>Skills</h1>
+                    <h2>Technologies Used</h2>
                     <Marquee speed={50} gradient={false} pauseOnHover={true} className="my-5">
-                        <h2>HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node  |  Express  |  MongoDB  |  React.js  |</h2>
+                        <h2>|   HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node  |  Express  |  MongoDB  |   Progressive Web Applications   |  React.js  |   
+                            MySQL   |   MVC   |   JQuery   |   APIs   |   Git   
+                        </h2>
                     </Marquee>
                 </div>
             </div>
