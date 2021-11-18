@@ -1,0 +1,32 @@
+.footerStyle {
+    background-color: #d2dbde;
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcons{
+    margin-left: 20px;
+    margin-right: 20px;
+    color:#051f40;
+    border: none;
+}
+
+.footerIcons:hover{
+    transition:.2s;
+    opacity:.4;
+}
+
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    /*input has OS specific font-family*/
+    text-decoration: underline;
+    cursor: pointer;
+  }

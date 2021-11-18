@@ -1,0 +1,45 @@
+.projectTitle{
+    color:#d2dbde;
+    margin-top: 75%;
+    background-color: #051f40;
+    position:relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.project{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 10px solid #d2dbde;
+}
+
+#project1{
+    background-image: url("../assets/images/techblog.png");
+}
+
+#project2{
+    background-image: url("../assets/images/neveralone.png");
+}
+
+#project3{
+    background-image: url("../assets/images/passwordgenerator.png");
+}
+
+#project4{
+    background-image: url("../assets/images/weatherdashboard.png");
+}
+
+#project5{
+    background-image: url("../assets/images/pokebattle.png");
+}
+
+#project6{
+    background-image: url("../assets/images/fitnessTracker.png");
+}
+
+.project:hover{
+    transition:.2s;
+    opacity:.6;
+}
