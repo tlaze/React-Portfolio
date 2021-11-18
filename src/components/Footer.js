@@ -10,8 +10,9 @@ function Footer() {
         <footer className="footerStyle">
             <a href='https://github.com/tlaze' target='blank' className="footerIcons"><FontAwesomeIcon icon={faGithubSquare} size="3x" /></a>
             <a href='https://www.linkedin.com/in/tlaze' target='blank' className="footerIcons"><FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
-            <a href='/' className="footerIcons"><FontAwesomeIcon icon={faPhoneSquareAlt} size="3x" /></a>
-            <a href='/' className="footerIcons"><FontAwesomeIcon icon={faEnvelope} size="3x" /></a>
+            <button data-toggle="modal" className="footerIcons" ><FontAwesomeIcon icon={faPhoneSquareAlt} size="3x" /></button>
+            <button className="footerIcons"><FontAwesomeIcon icon={faEnvelope} size="3x" /></button>
+        
         </footer>
     )
 }

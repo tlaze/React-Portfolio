@@ -20,3 +20,13 @@
     transition:.2s;
     opacity:.4;
 }
+
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    /*input has OS specific font-family*/
+    text-decoration: underline;
+    cursor: pointer;
+  }
