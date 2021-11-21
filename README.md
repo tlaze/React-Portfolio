@@ -15,8 +15,6 @@
 
   * [Contributors](#contributors)
 
-  * [ScreenShots](#screenshots)
-
   * [Links](#links)
 
   * [Questions](#questions)
@@ -46,14 +44,6 @@
   ## Contributors
 
   Tom Lazore
-  
-  ## Tests
-  
-  
-
-  ## ScreenShot
-
-  ![Screenshot]()
 
   ## Links
 
