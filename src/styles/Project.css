@@ -21,6 +21,7 @@ a{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: 10px solid #d2dbde;
+    opacity: .4;
 }
 
 #project1{
@@ -48,6 +49,16 @@ a{
 }
 
 .project:hover{
-    transition:.2s;
-    opacity:.6;
+    transition: .5s;
+    opacity: 1;
+}
+
+.projectTitle:hover{
+    color:#051f40;
+    background-color: #d2dbde;
+}
+
+.gitHubLink:hover{
+    color:#051f40;
+    background-color: #d2dbde;
 }
