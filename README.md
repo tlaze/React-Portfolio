@@ -15,8 +15,6 @@
 
   * [Contributors](#contributors)
 
-  * [Tests](#tests)
-
   * [ScreenShots](#screenshots)
 
   * [Links](#links)
@@ -31,7 +29,9 @@
 
   To run this application properly, you need to install:
   
-  Node, React.js, NPM
+  * Node 
+  * React.js 
+  * NPM
   
 
   ## Usage
