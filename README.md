@@ -1,8 +1,7 @@
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
   
-  # React-Portfolio
+  # Tom-Lazore-Portfolio
   
-
   ## Table Of Contents
 
   * [Description](#description)
@@ -47,9 +46,9 @@
 
   ## Links
 
-  [Live Application](https://tlaze.github.io/react-portfolio/)
+  [Live Application](https://tlaze.github.io/Tom-Lazore-Portfolio/)
 
-  [Project Repository](https://github.com/tlaze/react-portfolio)
+  [Project Repository](https://github.com/tlaze/Tom-Lazore-Portfolio)
   
   
   ## Questions
