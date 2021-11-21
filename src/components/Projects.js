@@ -44,6 +44,117 @@ function Projects() {
                     </div>
                 </div>
             </div>
+
+            <div className="row">
+                <div className="col-md-12 my-5">
+                    <h1 className="text-center">Project Descriptions</h1>
+                    <h2>Tech Blog</h2>
+                    <h6>This application allows users to view, create, update, and delete posts.
+                        They are also able to add comments on to other user's posts. 
+                        This is only possible if users are logged into their account.
+                        This application uses sessions to keep track of each user's post information
+                        and logs them out after a period of inactivity. </h6>
+                    <h4>Technology Used</h4>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Handlebars.js</li>
+                        <li>Express-Session</li>
+                        <li>MySQL2</li>
+                        <li>Sequelize</li>
+                        <li>bCrypt</li>
+                        <li>Heroku</li>
+                    </ul>
+
+                    <h2>NeverAlone</h2>
+                    <h6>This project was created by 4 member team with the goal of creating a 
+                        social media website geared towards mental health. My responsibilities
+                        included development of posts and its modifications. I was also
+                        involved with developing the application so it was mobile responsive. </h6>
+                    <h4>Technology Used</h4>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Handlebars.js</li>
+                        <li>Express-Session</li>
+                        <li>MySQL2</li>
+                        <li>Sequelize</li>
+                        <li>bCrypt</li>
+                        <li>NodeMailer</li>
+                    </ul>
+
+                    <h2>Password Generator</h2>
+                    <h6>This application generates a secure password depending on the user's personal
+                        preferences. User's have the option to include uppercase, lowercase, numerals,
+                        and/or special characters. Once the user completes the prompts, the password is generated
+                        for them to copy.
+                    </h6>
+                    <h4>Technology Used</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                    <h2>Weather Dashboard</h2>
+                    <h6>Using OpenWeatherOneAPI to fetch data, this application allows users to search a city for it's current weather
+                        as well as it's 5 day forecast. Previous searches are saved and will display it's information again 
+                        when clicked.
+                    </h6>
+                    <h4>Technology Used</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>JQuery</li>
+                        <li>OpenWeatherOneAPI</li>
+                        <li>Local Storage</li>
+                    </ul>
+
+
+                    <h2>PokeBattle</h2>
+                    <h6>This 4 member project allows users to relive childhood nostalgia by battling 1st Generation Pokemon.
+                        My role in this project was fetching data from PokeAPI to store Pokemon Types and Moves for attacking. As well
+                        as calculating User and CP damage. At the start of the battle, 4 moves are randomly chosen
+                        based on the Pokemon's type (Electric, Water, Fire, ect..). Battle ends when one Pokemon's HP drains to 0. 
+                    </h6>
+                    <h4>Technology Used</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>JQuery</li>
+                        <li>PokeAPI</li>
+                        <li>Local Storage</li>
+                    </ul>
+
+                    <h2>Workout Tracker</h2>
+                    <h6>This application allows users to keep track of the exercises while working out. 
+                        They have the option to track cardio or resistance exercices. Once complete, users 
+                        can open the dashboard to view graphs of all their workouts.
+                    </h6>
+                    <h4>Technology Used</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDb</li>
+                        <li>Mongoose</li>
+                        <li>MongoDb</li>
+                        <li>Morgan</li>
+                        <li>Heroku</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )   
 }
