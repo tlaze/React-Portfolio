@@ -33,6 +33,7 @@ function AboutMe() {
                     <Marquee speed={150} gradient={false} pauseOnHover={true} className="my-5">
                         <h2>|  HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  MongoDB  |   Mongoose   |   Progressive Web Applications   |  React.js  |   
                             MySQL   |   JQuery   |   APIs   |   Git   |   Handlebars.js   |   Local Storage   |   Python   |   Java   |   GraphQL   |   BCrypt   |   Sessions   |
+                               Redux   |   Apollo   |
                         </h2>
                     </Marquee>
                 </div>
