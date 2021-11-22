@@ -89,7 +89,7 @@ function ContactMe() {
                onChange={handleInputChange}
                 />
             </Form.Group>
-            <Button className="offset-5" variant="light" type="submit" onChange={handleFormSubmit}>Submit
+            <Button className="col-2 offset-5 bg-light" variant="light" type="submit" onChange={handleFormSubmit}>Submit
             </Button>
           </Form>
           {errorMessage && (

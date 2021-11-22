@@ -46,9 +46,9 @@ function Projects() {
             </div>
 
             <div className="row">
-                <div className="col-md-12 my-5">
-                    <h1 className="text-center">Project Descriptions</h1>
-                    <h2>Tech Blog</h2>
+                <div className="col-md-12">
+                    <h1 className="text-center my-5">Project Descriptions</h1>
+                    <h2 className="my-3">Tech Blog</h2>
                     <h6>This application allows users to view, create, update, and delete posts.
                         They are also able to add comments on to other user's posts. 
                         This is only possible if users are logged into their account.
@@ -68,7 +68,7 @@ function Projects() {
                         <li>Heroku</li>
                     </ul>
 
-                    <h2>NeverAlone</h2>
+                    <h2 className="my-3">NeverAlone</h2>
                     <h6>This project was created by 4 member team with the goal of creating a 
                         social media website geared towards mental health. My responsibilities
                         included development of posts and its modifications. I was also
@@ -87,7 +87,7 @@ function Projects() {
                         <li>NodeMailer</li>
                     </ul>
 
-                    <h2>Password Generator</h2>
+                    <h2 className="my-3">Password Generator</h2>
                     <h6>This application generates a secure password depending on the user's personal
                         preferences. User's have the option to include uppercase, lowercase, numerals,
                         and/or special characters. Once the user completes the prompts, the password is generated
@@ -100,7 +100,7 @@ function Projects() {
                         <li>Javascript</li>
                     </ul>
 
-                    <h2>Weather Dashboard</h2>
+                    <h2 className="my-3">Weather Dashboard</h2>
                     <h6>Using OpenWeatherOneAPI to fetch data, this application allows users to search a city for it's current weather
                         as well as it's 5 day forecast. Previous searches are saved and will display it's information again 
                         when clicked.
@@ -117,7 +117,7 @@ function Projects() {
                     </ul>
 
 
-                    <h2>PokeBattle</h2>
+                    <h2 className="my-3">PokeBattle</h2>
                     <h6>This 4 member project allows users to relive childhood nostalgia by battling 1st Generation Pokemon.
                         My role in this project was fetching data from PokeAPI to store Pokemon Types and Moves for attacking. As well
                         as calculating User and CP damage. At the start of the battle, 4 moves are randomly chosen
@@ -134,7 +134,7 @@ function Projects() {
                         <li>Local Storage</li>
                     </ul>
 
-                    <h2>Workout Tracker</h2>
+                    <h2 className="my-3">Workout Tracker</h2>
                     <h6>This application allows users to keep track of the exercises while working out. 
                         They have the option to track cardio or resistance exercices. Once complete, users 
                         can open the dashboard to view graphs of all their workouts.
