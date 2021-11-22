@@ -20,7 +20,7 @@ function AboutMe() {
                 </div>
                 <div className="col-md-9 text-center my-5">
                     <h3>
-                        I am a full stack software developer certified from Georgia Tech University. Working with teams developed a mindset that supporting each member and putting in the effort to excel individualy leads to success.
+                        I am a full stack software developer certified from Georgia Tech University. Working with teams developed a mindset that supporting each member and putting in the effort to excel individually leads to success.
                         During college I became an EMT and tested my skills in teamwork, multitasking, and staying calm under pressure in diverse and challenging environments.
                         I worked in that field for nine years and went back to school to obtain my Paramedic Certification. I will be forever grateful for the skills learned and life experience gained during that time of my life.
                         I am excited about this career switch and looking forward to future opportunities.
