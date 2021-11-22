@@ -30,9 +30,9 @@ function AboutMe() {
             <div className="row">
                 <div className="col-md-12 text-center my-5">
                     <h2>Technologies Used</h2>
-                    <Marquee speed={50} gradient={false} pauseOnHover={true} className="my-5">
-                        <h2>|   HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  MongoDB  |   Progressive Web Applications   |  React.js  |   
-                            MySQL   |   MVC   |   JQuery   |   APIs   |   Git   |   Handlebars.js   |   Local Storage   |   Python   |   Java   |
+                    <Marquee speed={200} gradient={false} pauseOnHover={true} className="my-5">
+                        <h2>|  HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  MongoDB  |   Progressive Web Applications   |  React.js  |   
+                            MySQL   |   MVC   |   JQuery   |   APIs   |   Git   |   Handlebars.js   |   Local Storage   |   Python   |   Java   |   GraphQL   |
                         </h2>
                     </Marquee>
                 </div>
