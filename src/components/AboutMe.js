@@ -20,20 +20,31 @@ function AboutMe() {
                 </div>
                 <div className="col-md-9 text-center my-5">
                     <h3>
-                        I am a full stack software developer certified from Georgia Tech University. Working with teams developed a mindset that supporting each member and putting in the effort to excel individually leads to success.
-                        During college I became an EMT and tested my skills in teamwork, multitasking, and staying calm under pressure in diverse and challenging environments.
-                        I worked in that field for nine years and went back to school to obtain my Paramedic Certification. I will be forever grateful for the skills learned and life experience gained during that time of my life.
-                        I am excited about this career switch and looking forward to future opportunities.
+                        Earned Full Stack Software Developer certification from Georgia Tech University.
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        Effective team leader of successful people through managing challenges.
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        Succeeded in managing my time across challenging areas at school and work as an Emergency Medical Technician (EMT).
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                     </h3>
                 </div>
             </div>
             <div className="row">
                 <div className="col-md-12 text-center my-5">
-                    <h2>Technologies Used</h2>
+                    <h2>Knowledge Base</h2>
                     <Marquee speed={150} gradient={false} pauseOnHover={true} className="my-5">
-                        <h2>|  HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  MongoDB  |   Mongoose   |   Progressive Web Applications   |  React.js  |   
+                        <h2>  HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  MongoDB  |   Mongoose   |   Progressive Web Applications   |  React.js  |   
                             MySQL   |   JQuery   |   APIs   |   Git   |   Handlebars.js   |   Local Storage   |   Python   |   Java   |   GraphQL   |   BCrypt   |   Sessions   |
-                               Redux   |   Apollo   |
+                               Redux   |   Apollo   |   
                         </h2>
                     </Marquee>
                 </div>
