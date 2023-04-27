@@ -20,16 +20,18 @@ function AboutMe() {
                 </div>
                 <div className="col-md-9 text-center my-5">
                     <h3>
-                        Earned Full Stack Software Developer certification from Georgia Tech University.
+                        Welcome! Thank you for checking out my portfolio.
+                        <br></br>
+                        I am currently employed at Revature as a software developer with a focus on Java, Spring, and Angular.
+                        <br></br>
+                        <br></br>
+                        I earned a Full Stack Software Developer certification from Georgia Tech University.
+                        <br></br>
+                        Tech stack involved React for front-end development and Express.js for back-end.
                         <br></br>
                         <br></br>
                         <br></br>
-                        Effective team leader of successful people through managing challenges.
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        Succeeded in managing my time across challenging areas at school and work as an Emergency Medical Technician (EMT).
-                        <br></br>
+                        Prior to entering this field I worked for 10 years in Emergency Medical Services.
                         <br></br>
                         <br></br>
                         <br></br>
