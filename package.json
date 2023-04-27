@@ -16,7 +16,6 @@
     "dotenv": "^10.0.0",
     "env": "0.0.2",
     "express": "^4.17.1",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.2",
@@ -51,7 +50,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-syntax-jsx": "^7.16.0"
+    "@babel/plugin-syntax-jsx": "^7.16.0",
+    "gh-pages": "^3.2.3"
   },
   "homepage": "https://tlaze.github.io/Tom-Lazore-Portfolio/"
 }
