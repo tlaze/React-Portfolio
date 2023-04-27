@@ -22,6 +22,7 @@ function AboutMe() {
                     <h3>
                         Welcome! Thank you for checking out my portfolio.
                         <br></br>
+                        <br></br>
                         I am currently employed at Revature as a software developer with a focus on Java, Spring, and Angular.
                         <br></br>
                         <br></br>
@@ -30,13 +31,13 @@ function AboutMe() {
                         Tech stack involved React for front-end development and Express.js for back-end.
                         <br></br>
                         <br></br>
-                        <br></br>
                         Prior to entering this field I worked for 10 years in Emergency Medical Services.
                         <br></br>
+                        Skills developed from previous experience include effective leadership and teamwork, logical thinking under stress, as well as 
+                        a drive to always improve myself.
                         <br></br>
                         <br></br>
-                        <br></br>
-                        <br></br>
+                        Any questions? Feel free to use the contact me page.
                     </h3>
                 </div>
             </div>
@@ -44,9 +45,8 @@ function AboutMe() {
                 <div className="col-md-12 text-center my-5">
                     <h2>Knowledge Base</h2>
                     <Marquee speed={150} gradient={false} pauseOnHover={true} className="my-5">
-                        <h2>  HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  MongoDB  |   Mongoose   |   Progressive Web Applications   |  React.js  |   
-                            MySQL   |   JQuery   |   APIs   |   Git   |   Handlebars.js   |   Local Storage   |   Python   |   Java   |   GraphQL   |   BCrypt   |   Sessions   |
-                               Redux   |   Apollo   |   
+                        <h2>|  HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  React.js  |   
+                            MySQL   |   Typescript   |   Python   |   Java   |   Angular   |   Spring   |  AWS   
                         </h2>
                     </Marquee>
                 </div>
