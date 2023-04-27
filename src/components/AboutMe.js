@@ -19,7 +19,7 @@ function AboutMe() {
                     <img src={profPic} alt="Me" style={styles.picStyle}></img>
                 </div>
                 <div className="col-md-9 text-center my-5">
-                    <h3>
+                    <h4>
                         Welcome! Thank you for checking out my portfolio.
                         <br></br>
                         <br></br>
@@ -33,12 +33,13 @@ function AboutMe() {
                         <br></br>
                         Prior to entering this field I worked for 10 years in Emergency Medical Services.
                         <br></br>
-                        Skills developed from previous experience include effective leadership and teamwork, logical thinking under stress, as well as 
-                        a drive to always improve myself.
+                        I enhanced my skills of performing logically under pressure, working with and managing teams,
+                        <br></br>
+                        and drive for self improvement..
                         <br></br>
                         <br></br>
                         Any questions? Feel free to use the contact me page.
-                    </h3>
+                    </h4>
                 </div>
             </div>
             <div className="row">
