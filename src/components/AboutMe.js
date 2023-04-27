@@ -7,7 +7,7 @@ function AboutMe() {
         picStyle: {
             height: '200x',
             width: '200px',
-            borderRadius: '25%',
+            borderRadius: '15%',
             border: '5px solid #d2dbde',
         },
     }
