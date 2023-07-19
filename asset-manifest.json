@@ -1,26 +1,21 @@
 {
   "files": {
-    "main.css": "/Tom-Lazore-Portfolio/static/css/main.f70bb28b.chunk.css",
-    "main.js": "/Tom-Lazore-Portfolio/static/js/main.e231d807.chunk.js",
-    "main.js.map": "/Tom-Lazore-Portfolio/static/js/main.e231d807.chunk.js.map",
-    "runtime-main.js": "/Tom-Lazore-Portfolio/static/js/runtime-main.774ffe47.js",
-    "runtime-main.js.map": "/Tom-Lazore-Portfolio/static/js/runtime-main.774ffe47.js.map",
-    "static/css/2.b8e408b6.chunk.css": "/Tom-Lazore-Portfolio/static/css/2.b8e408b6.chunk.css",
-    "static/js/2.061cc5aa.chunk.js": "/Tom-Lazore-Portfolio/static/js/2.061cc5aa.chunk.js",
-    "static/js/2.061cc5aa.chunk.js.map": "/Tom-Lazore-Portfolio/static/js/2.061cc5aa.chunk.js.map",
+    "main.css": "/Tom-Lazore-Portfolio/static/css/main.60ab23c4.css",
+    "main.js": "/Tom-Lazore-Portfolio/static/js/main.c31b810f.js",
+    "static/media/profilePic.jpg": "/Tom-Lazore-Portfolio/static/media/profilePic.7bb38093274232cf4332.jpg",
+    "static/media/weatherdashboard.png": "/Tom-Lazore-Portfolio/static/media/weatherdashboard.c76f1745210aa9827ff6.png",
+    "static/media/pokebattle.png": "/Tom-Lazore-Portfolio/static/media/pokebattle.3dafe3cd17c349deb531.png",
+    "static/media/passwordgenerator.png": "/Tom-Lazore-Portfolio/static/media/passwordgenerator.ebef18ca0089090f8531.png",
+    "static/media/Thomas_Lazore_Resume.pdf": "/Tom-Lazore-Portfolio/static/media/Thomas_Lazore_Resume.af80dcf6e30569dfdd76.pdf",
+    "static/media/techblog.png": "/Tom-Lazore-Portfolio/static/media/techblog.5a3601208588d34c1d7f.png",
+    "static/media/neveralone.png": "/Tom-Lazore-Portfolio/static/media/neveralone.05d1a691b732478e6c5c.png",
+    "static/media/fitnessTracker.png": "/Tom-Lazore-Portfolio/static/media/fitnessTracker.af189dce0af11246524d.png",
     "index.html": "/Tom-Lazore-Portfolio/index.html",
-    "static/css/2.b8e408b6.chunk.css.map": "/Tom-Lazore-Portfolio/static/css/2.b8e408b6.chunk.css.map",
-    "static/css/main.f70bb28b.chunk.css.map": "/Tom-Lazore-Portfolio/static/css/main.f70bb28b.chunk.css.map",
-    "static/js/2.061cc5aa.chunk.js.LICENSE.txt": "/Tom-Lazore-Portfolio/static/js/2.061cc5aa.chunk.js.LICENSE.txt",
-    "static/media/Portfolio_Resume.8eae6d25.pdf": "/Tom-Lazore-Portfolio/static/media/Portfolio_Resume.8eae6d25.pdf",
-    "static/media/Project.css": "/Tom-Lazore-Portfolio/static/media/weatherdashboard.c76f1745.png",
-    "static/media/profilePic.182c9161.jpg": "/Tom-Lazore-Portfolio/static/media/profilePic.182c9161.jpg"
+    "main.60ab23c4.css.map": "/Tom-Lazore-Portfolio/static/css/main.60ab23c4.css.map",
+    "main.c31b810f.js.map": "/Tom-Lazore-Portfolio/static/js/main.c31b810f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.774ffe47.js",
-    "static/css/2.b8e408b6.chunk.css",
-    "static/js/2.061cc5aa.chunk.js",
-    "static/css/main.f70bb28b.chunk.css",
-    "static/js/main.e231d807.chunk.js"
+    "static/css/main.60ab23c4.css",
+    "static/js/main.c31b810f.js"
   ]
 }
