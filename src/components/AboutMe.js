@@ -18,12 +18,19 @@ function AboutMe() {
                 <div className="col-md-3 text-center my-5">
                     <img src={profPic} alt="Me" style={styles.picStyle}></img>
                 </div>
-                <div className="col-md-9 text-center my-5">
+                <div className="col-md-9 text-center my-3">
                     <h4>
                         Welcome! Thank you for checking out my portfolio.
                         <br></br>
                         <br></br>
-                        I am currently employed at Revature as a software developer with a focus on Java, Spring, and Angular.
+                        I have been a software developer for 2 years.
+                        <br></br>
+                        Below are a some technologies and frameworks I have worked with.
+                        <br></br>
+                        <br></br>
+                        My latest position at Revature focused on Agile project developement
+                        <br></br>
+                        with a focus on Java, Spring, and Angular
                         <br></br>
                         <br></br>
                         I earned a Full Stack Software Developer certification from Georgia Tech University.
@@ -33,9 +40,9 @@ function AboutMe() {
                         <br></br>
                         Prior to entering this field I worked for 10 years in Emergency Medical Services.
                         <br></br>
-                        I enhanced my skills of performing logically under pressure, working with and managing teams,
+                        Enhancing my abilities to perform effectively under pressure,
                         <br></br>
-                        and drive for self improvement..
+                        lead teams, and pursue continuous self-improvement.
                         <br></br>
                         <br></br>
                         Any questions? Feel free to use the contact me page.
@@ -46,8 +53,8 @@ function AboutMe() {
                 <div className="col-md-12 text-center my-5">
                     <h2>Knowledge Base</h2>
                     <Marquee speed={150} gradient={false} pauseOnHover={true} className="my-5">
-                        <h2>|  HTML  |  CSS  |  Javascript  |  Bootstrap  |  Node.js  |  Express.js   |   NPM   |  React.js  |   
-                            MySQL   |   Typescript   |   Python   |   Java   |   Angular   |   Spring   |  AWS   
+                        <h2>|  HTML  |  CSS  |  JavaScript  |  Bootstrap  |  Express   |   NPM   |  React  |   
+                            MySQL   |   Typescript   |   Python   |   Java   |   Angular   |   Spring/SpringBoot   |  Amazon Web Services   
                         </h2>
                     </Marquee>
                 </div>

@@ -6,13 +6,17 @@ function Projects() {
     return(
         <div className="container-fluid my-5" >
             <div className="row">
-                <div className="col-md-12 mb-5">
+                <div className="col-md-12 mb-3">
                     <h1>Projects</h1>
+                </div>
+                <div className="col-mid-12 text-center mb-5">
+                    <h4>For a full list if projects, check out my <a href="https://github.com/tlaze?tab=repositories" target ="_blank">GitHub Repository</a></h4>
+                    <h6></h6>
                 </div>
                 {/* Each project displays its description next to it */}
                 <div className="row">
                     <div className="project col-md-4 offset-md-2 my-3" id="project1">
-                        <a href="https://cryptic-thicket-49114.herokuapp.com/" target="blank" rel="noreferrer"><h4 className="projectTitle text-center">Tech Blog</h4></a>
+                        <a href="https://tom-blog-ad9726927b47.herokuapp.com/" target="blank" rel="noreferrer"><h4 className="projectTitle text-center">Deployed Project</h4></a>
                         <a href="https://github.com/tlaze/tech-blog" target="blank" rel="noreferrer"><h4 className="gitHubLink text-center">GitHub Repo</h4></a>
                     </div>
                     <div className="col-md-4 offset-md-1 my-3 text-center">
