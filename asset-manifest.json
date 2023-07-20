@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Tom-Lazore-Portfolio/static/css/main.60ab23c4.css",
-    "main.js": "/Tom-Lazore-Portfolio/static/js/main.b9cc92c9.js",
+    "main.js": "/Tom-Lazore-Portfolio/static/js/main.0aa6ccd7.js",
     "static/media/profilePic.jpg": "/Tom-Lazore-Portfolio/static/media/profilePic.884c107afefd09fc39fc.jpg",
     "static/media/weatherdashboard.png": "/Tom-Lazore-Portfolio/static/media/weatherdashboard.c76f1745210aa9827ff6.png",
     "static/media/pokebattle.png": "/Tom-Lazore-Portfolio/static/media/pokebattle.3dafe3cd17c349deb531.png",
@@ -12,10 +12,10 @@
     "static/media/fitnessTracker.png": "/Tom-Lazore-Portfolio/static/media/fitnessTracker.af189dce0af11246524d.png",
     "index.html": "/Tom-Lazore-Portfolio/index.html",
     "main.60ab23c4.css.map": "/Tom-Lazore-Portfolio/static/css/main.60ab23c4.css.map",
-    "main.b9cc92c9.js.map": "/Tom-Lazore-Portfolio/static/js/main.b9cc92c9.js.map"
+    "main.0aa6ccd7.js.map": "/Tom-Lazore-Portfolio/static/js/main.0aa6ccd7.js.map"
   },
   "entrypoints": [
     "static/css/main.60ab23c4.css",
-    "static/js/main.b9cc92c9.js"
+    "static/js/main.0aa6ccd7.js"
   ]
 }
